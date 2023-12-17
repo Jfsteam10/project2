@@ -1,0 +1,13 @@
+#s1{
+    background-color: green;
+    color: white;
+    padding: 5.5px 130px;
+    border-radius: 15px;
+    font-size: 0.5cm;
+    font-family:sans-serif;
+    font-weight: 800;
+    
+}
+#s1:hover{
+    background-color: rgb(47, 179, 47);
+}
