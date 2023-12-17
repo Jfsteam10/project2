@@ -1,0 +1,68 @@
+#Uname{
+    border-radius: 10px;
+    border-bottom-color: black;
+    border-right-color: black;
+    padding: 5px 5px 5px 5px;
+  }
+  #Uname:hover{
+    border-radius: 8px;
+    box-shadow: 0 0 5px black;
+    border-top-color:gray;
+  }
+
+  #email{
+    border-radius: 10px;
+    border-bottom-color: black;
+    border-right-color: black;
+    padding: 5px 5px 5px 5px;
+   
+
+  }
+  #email:hover{
+    border-radius: 8px;
+    box-shadow: 0 0 5px black;
+    border-top-color:gray;
+  }
+
+  #number{
+    border-radius: 10px;
+    border-bottom-color: black;
+    border-right-color: black;
+    padding: 5px 5px 5px 5px;
+  }
+  #number:hover{
+    border-radius: 8px;
+    box-shadow: 0 0 5px black;
+    border-top-color:gray;
+  }
+  
+  #message{
+    border-radius: 10px;
+    border-color:black;
+    padding: 5px 5px 5px 5px; 
+    transition: 0.2s;
+  }
+  #message:hover{
+    border-radius: 8px;
+    box-shadow: 0 0 5px black;
+   
+    
+  }
+  #submit{
+    border-radius: 10px;
+    border-color:black;
+    padding: 5px 20px 5px 20px; 
+    box-shadow: 0 0 5px rgb(255, 255, 255);
+    background-color: #c0c0c0;
+    font-size:  16px;
+    
+  }
+
+  #submit:hover{
+    border-radius: 8px;
+    border-color:black;
+    box-shadow: 0 0 5px black;
+    background-color:#c0c0c0;
+    color: white;
+  
+  }
