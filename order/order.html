@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Order Page</title>
+</head>
+<body bgcolor="skyblue">
+    <center><br>
+    <h1>Order Now!!</h1>
+<br>
+    <form action="" style="font-size: 20px;">
+
+        <label for="" > Name :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" placeholder="Ex: John" required><br><br>
+
+        <label for="">Email :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="email" placeholder="example@gmail.com" required><br><br>
+
+        <label for="product">Product:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <select id="product" name="product">
+            <option value="product1">Product 1</option>
+            <option value="product2">Product 2</option>
+            <!-- Add more product options as needed -->
+        </select><br><br>
+
+        <label for="quantity">Quantity:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="number" id="quantity" name="quantity" min="1"><br><br>
+        <label for="address">Shipping Address:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <textarea id="address" name="address" rows="3" ></textarea><br><br><br>
+
+        <input type="submit" value="Place Order">
+    </form>
+   </center>
+
+</body>
