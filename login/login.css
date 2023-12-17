@@ -1,0 +1,12 @@
+#login{
+    background-color: green;
+    color: white;
+    padding: 5.5px 120px;
+    border-radius: 15px;
+    font-size: 0.5cm;
+    font-family:sans-serif;
+    font-weight: 800;
+}
+#login:hover{
+    background-color: rgb(47, 179, 47);
+}
